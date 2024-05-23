@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Ingrid+Darling&family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+body {
+  background-color: white;
+}
+
+   .header .search-bar {
+        float: right;
+        margin: 30px;
+        position: relative; /* Add position relative to the search bar */
+        display: flex;
+        align-items: center; /* Center vertically */
+    }
+
+    .header .search-bar input {
+        height: 40px;
+        padding: 5px 10px 5px 35px; /* Adjust padding */
+        border: 1px solid  #999;
+        border-radius: 50px; /* Make border-radius half of height to make it round */
+        font-size: 13px;
+        position: relative; /* Relative position for the icon */
+        width: 800px; /* Adjust width as needed */
+    }
+
+    .header .search-bar i {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #999;
+    }
+
+
+    .header .nav-items {
+        display: flex;
+        align-items: center; /* Align vertically */
+    }
+
+    .header .nav-items a {
+        color: #999;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+
+    .header .shopping-cart {
+        position: relative;
+    }
+
+    .header .shopping-cart .cart-icon {
+        
+        color: #999;
+        margin-right: 3px;
+
+        
+    }
+
+    .header .shopping-cart .cart-count {
+        position: absolute;
+        
+        background-color: rgb(114, 107, 107);
+        color: white;
+        border-radius: 30%;
+        padding: 6px;
+        font-size: 10px;
+    }
+
+
+    .star-product-color{
+        color: palevioletred;
+        
+    }
+
+    .font-color{
+        color: #999;
+    }
+
+    .category-product a:active,
+.category-product a:visited {
+    border-bottom: 2px solid palevioletred;
+}
+nav {
+  text-align: center;
+  margin: 15px;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+nav a {
+  color: #999;
+  text-decoration: none;
+  padding: 17px;
+}
+
+nav a:hover {
+  border-bottom: 1px solid palevioletred;
+}

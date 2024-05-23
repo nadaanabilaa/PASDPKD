@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Inter:wght@100..900&display=swap');
+
+body {
+   margin: 0;
+   font-family: "Inter";
+   background-color: #fff;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 150px;
+  font-family: "Italianno";
+  padding: 15px;
+  font-weight: 200;
+  font-style: normal
+}
+
+.checkbox {
+  margin: 30px ;
+  font-family: "Inter";
+}
+
+.header {
+   background-color: white;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Italianno";
+  padding: 15px;
+  font-weight: 300;
+  font-style: normal;
+   color: #464646;
+   padding: 20px;
+   margin: -9px;
+   font-size: 80px;
+   border: 1px solid #999;
+   
+}
+
+.container {
+   display: flex;
+   margin: 20px;
+   background-color: #FF8FB1;
+   width: 90%;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+img {
+  border-radius: 5px;
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.produk-info {
+   font-size: 15px;
+   text-align: left;
+   margin-left: 10px;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+.num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 10px 0;
+  height: 20px;
+  width: 70px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 50px;
+  margin: 0 80%;
+  background-color:#81767E ;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size:20px;
+  margin: 0 5px;
+}
